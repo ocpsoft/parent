@@ -1,57 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <modelVersion>4.0.0</modelVersion>
 
-	<name>OCPSoft Parent</name>
-	<groupId>com.ocpsoft</groupId>
-	<artifactId>ocpsoft-parent</artifactId>
-	<packaging>pom</packaging>
+   <name>OCPSoft Parent</name>
+   <groupId>com.ocpsoft</groupId>
+   <artifactId>ocpsoft-parent</artifactId>
+   <packaging>pom</packaging>
 
-	<version>1</version>
+   <version>2</version>
 
-	<url>http://ocpsoft.com/</url>
+   <url>http://ocpsoft.com/</url>
 
-	<distributionManagement>
-		<repository>
-			<id>ocpsoft.ftp.public</id>
-			<url>ftp://ocpsoft.com/ocpsoft.com/repository/</url>
-		</repository>
-	</distributionManagement>
+   <repositories>
+      <repository>
+         <id>OCPSoft</id>
+         <url>http://ocpsoft.com/repository/</url>
+      </repository>
+   </repositories>
 
-	<dependencyManagement>
+   <distributionManagement>
+      <repository>
+         <id>ocpsoft.releases</id>
+         <name>OCPsoft Releases Repository</name>
+         <url>scp://ocpsoft.com/repository/releases/</url>
+      </repository>
+      <snapshotRepository>
+         <id>ocpsoft.snapshots</id>
+         <name>OCPsoft Snapshots Repository</name>
+         <url>scp://ocpsoft.com/repository/snapshots/</url>
+      </snapshotRepository>
+   </distributionManagement>
 
-	</dependencyManagement>
+   <dependencyManagement>
+   </dependencyManagement>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</properties>
+   <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+   </properties>
 
-	<repositories>
-		<repository>
-			<id>OCPSOFT</id>
-			<url>http://ocpsoft.com/repository</url>
-		</repository>
-	</repositories>
+   <build>
+      <extensions>
+         <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-ssh</artifactId>
+            <version>1.0-beta-6</version>
+         </extension>
+      </extensions>
+   </build>
 
-	<build>
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ftp</artifactId>
-				<version>1.0-beta-3</version>
-			</extension>
-		</extensions>
-	</build>
-
-	<developers>
-		<developer>
-			<id>lincolnbaxter</id>
-			<name>Lincoln Baxter, III</name>
-			<email>lincoln@ocpsoft.com</email>
-			<timezone>-5</timezone>
-		</developer>
-	</developers>
+   <developers>
+      <developer>
+         <id>lincolnbaxter</id>
+         <name>Lincoln Baxter, III</name>
+         <email>lincoln@ocpsoft.com</email>
+         <timezone>-5</timezone>
+      </developer>
+   </developers>
 </project>
