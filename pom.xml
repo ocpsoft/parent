@@ -4,6 +4,12 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
 	<name>OCPSoft Parent</name>
 	<description>OCPsoft Parent POM</description>
 
@@ -11,7 +17,7 @@
 	<artifactId>ocpsoft-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>3</version>
+	<version>3-SNAPSHOT</version>
 
 	<url>http://ocpsoft.org/</url>
 
@@ -81,16 +87,6 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<artifactId>maven-source-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 
 		<extensions>
@@ -117,25 +113,6 @@
 	</reporting>
 
 	<profiles>
-		<profile>
-			<id>sonatype</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<distributionManagement>
-				<repository>
-					<id>sonatype.releases</id>
-					<name>Sonatype Releases Repository</name>
-					<url>scp://ocpsoft.org/repository/releases/</url>
-				</repository>
-				<snapshotRepository>
-					<id>sonatype.snapshots</id>
-					<name>Sonatype Snapshots Repository</name>
-					<url>scp://ocpsoft.org/repository/snapshots/</url>
-				</snapshotRepository>
-			</distributionManagement>
-		</profile>
-
 		<profile>
 			<id>legacy</id>
 			<distributionManagement>
