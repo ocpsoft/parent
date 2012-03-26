@@ -20,7 +20,7 @@
 	<artifactId>ocpsoft-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>5-SNAPSHOT</version>
+	<version>5</version>
 
 	<url>http://ocpsoft.org/</url>
 
@@ -453,6 +453,18 @@
 								</requireMavenVersion>
 							</rules>
 						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
 					</execution>
 				</executions>
 			</plugin>
