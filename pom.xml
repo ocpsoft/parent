@@ -112,7 +112,7 @@
 
 	<profiles>
 		<profile>
-			<id>legacy</id>
+			<id>ocpsoftDeploy</id>
 			<distributionManagement>
 				<repository>
 					<id>ocpsoft.releases</id>
