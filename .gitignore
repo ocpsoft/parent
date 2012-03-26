@@ -6,6 +6,12 @@ dependency-reduced-pom.xml
 target/
 *.iml
 *.ipr
+*.idea
+*.iws
+*.*~
+bin/
 /*/src/main/java/META-INF
+/*/src/META-INF
 .gitignore.swp
+.faces-config.xml.jsfdia
 docs/reference/src/main/docbook/en-US/version_info.xml
