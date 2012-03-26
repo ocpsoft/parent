@@ -20,7 +20,7 @@
 	<artifactId>ocpsoft-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>5</version>
+	<version>6-SNAPSHOT</version>
 
 	<url>http://ocpsoft.org/</url>
 
