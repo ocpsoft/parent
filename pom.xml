@@ -88,7 +88,7 @@
 		<version.ejb.plugin>2.3</version.ejb.plugin>
 		<version.enforcer.plugin>1.2</version.enforcer.plugin>
 		<version.findbugs.plugin>2.2</version.findbugs.plugin>
-		<version.gpg.plugin>1.1</version.gpg.plugin>
+		<version.gpg.plugin>1.4</version.gpg.plugin>
 		<version.idea.plugin>2.2</version.idea.plugin>
 		<version.injection.plugin>1.0.2</version.injection.plugin>
 		<version.install.plugin>2.3.1</version.install.plugin>
