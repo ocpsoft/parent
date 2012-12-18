@@ -20,7 +20,7 @@
 	<artifactId>ocpsoft-parent</artifactId>
 	<packaging>pom</packaging>
 
-	<version>7-SNAPSHOT</version>
+	<version>7</version>
 
 	<url>http://ocpsoft.org/</url>
 
@@ -45,7 +45,8 @@
 		<connection>scm:git:git://github.com/ocpsoft/parent.git</connection>
 		<developerConnection>scm:git:git@github.com:ocpsoft/parent.git</developerConnection>
 		<url>http://github.com/ocpsoft/parent</url>
-	</scm>
+	  <tag>7</tag>
+  </scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
