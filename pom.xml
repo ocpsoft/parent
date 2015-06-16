@@ -102,7 +102,7 @@
         <version.rar.plugin>2.4</version.rar.plugin>
         <version.release.plugin>2.5.2</version.release.plugin>
         <version.resources.plugin>2.7</version.resources.plugin>
-        <version.shade.plugin>2.3</version.shade.plugin>
+        <version.shade.plugin>2.4</version.shade.plugin>
         <version.site.plugin>3.4</version.site.plugin>
         <version.sonar.plugin>2.5</version.sonar.plugin>
         <version.source.plugin>2.4</version.source.plugin>
