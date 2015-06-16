@@ -20,7 +20,7 @@
     <artifactId>ocpsoft-parent</artifactId>
     <packaging>pom</packaging>
 
-    <version>12-SNAPSHOT</version>
+    <version>11-SNAPSHOT</version>
 
     <url>http://ocpsoft.org/</url>
 
@@ -100,7 +100,7 @@
         <version.plugin.plugin>3.4</version.plugin.plugin>
         <version.pmd.plugin>3.3</version.pmd.plugin>
         <version.rar.plugin>2.4</version.rar.plugin>
-        <version.release.plugin>2.5.1</version.release.plugin>
+        <version.release.plugin>2.5.2</version.release.plugin>
         <version.resources.plugin>2.7</version.resources.plugin>
         <version.shade.plugin>2.3</version.shade.plugin>
         <version.site.plugin>3.4</version.site.plugin>
