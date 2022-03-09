@@ -41,6 +41,16 @@
         <tag>HEAD</tag>
     </scm>
 
+    <ciManagement>
+        <system>GitHub Actions</system>
+        <url>https://github.com/ocpsoft/parent/actions</url>
+    </ciManagement>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/ocpsoft/parent/issues</url>
+    </issueManagement>
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
