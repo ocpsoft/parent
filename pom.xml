@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">    <modelVersion>4.0.0</modelVersion>
 
     <name>OCPsoft Parent</name>
     <description>OCPsoft Parent POM</description>
 
     <organization>
         <name>OCPsoft</name>
-        <url>http://ocpsoft.org/</url>
+        <url>https://ocpsoft.org/</url>
     </organization>
 
     <groupId>org.ocpsoft</groupId>
@@ -16,7 +15,7 @@
 
     <version>16-SNAPSHOT</version>
 
-    <url>http://ocpsoft.org/</url>
+    <url>https://ocpsoft.org/</url>
 
     <developers>
         <developer>
@@ -30,7 +29,7 @@
     <licenses>
         <license>
             <name>Apache License</name>
-            <url>http://www.apache.org/licenses/</url>
+            <url>https://www.apache.org/licenses/</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -38,7 +37,7 @@
     <scm>
         <connection>scm:git:git://github.com/ocpsoft/parent.git</connection>
         <developerConnection>scm:git:git@github.com:ocpsoft/parent.git</developerConnection>
-        <url>http://github.com/ocpsoft/parent</url>
+        <url>https://github.com/ocpsoft/parent</url>
         <tag>HEAD</tag>
     </scm>
 
