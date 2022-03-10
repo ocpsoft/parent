@@ -82,7 +82,7 @@
         <version.antrun.plugin>3.0.0</version.antrun.plugin>
         <version.assembly.plugin>3.3.0</version.assembly.plugin>
         <version.buildhelper.plugin>3.3.0</version.buildhelper.plugin>
-        <version.buildnumber.plugin>1.4</version.buildnumber.plugin>
+        <version.buildnumber.plugin>3.0.0</version.buildnumber.plugin>
         <version.bundle.plugin>5.1.4</version.bundle.plugin>
         <version.checkstyle.plugin>3.1.2</version.checkstyle.plugin>
         <version.clean.plugin>3.1.0</version.clean.plugin>
