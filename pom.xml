@@ -13,7 +13,7 @@
     <artifactId>ocpsoft-parent</artifactId>
     <packaging>pom</packaging>
 
-    <version>16</version>
+    <version>17-SNAPSHOT</version>
 
     <url>https://ocpsoft.org/</url>
 
@@ -38,7 +38,7 @@
         <connection>scm:git:git://github.com/ocpsoft/parent.git</connection>
         <developerConnection>scm:git:git@github.com:ocpsoft/parent.git</developerConnection>
         <url>https://github.com/ocpsoft/parent</url>
-        <tag>16</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <ciManagement>
