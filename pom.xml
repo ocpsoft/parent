@@ -88,7 +88,7 @@
         <version.clean.plugin>3.1.0</version.clean.plugin>
         <version.clover2.plugin>4.0.6</version.clover2.plugin>
         <version.cobertura.plugin>2.7</version.cobertura.plugin>
-        <version.compiler.plugin>3.10.0</version.compiler.plugin>
+        <version.compiler.plugin>3.10.1</version.compiler.plugin>
         <version.dependency.plugin>3.2.0</version.dependency.plugin>
         <version.deploy.plugin>2.8.2</version.deploy.plugin>
         <version.ear.plugin>3.2.0</version.ear.plugin>
